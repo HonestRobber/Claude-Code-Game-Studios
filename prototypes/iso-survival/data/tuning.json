@@ -1,0 +1,48 @@
+{
+  "seed": 1337,
+  "player": {
+    "speed": 4.5,
+    "max_health": 100,
+    "interact_range": 1.8,
+    "bandage_heal": 25
+  },
+  "zombie": {
+    "home": [12.0, 0.0, -9.0],
+    "walk_speed": 1.2,
+    "chase_speed": 3.2,
+    "detect_radius": 9.0,
+    "hear_radius": 3.0,
+    "lose_radius": 15.0,
+    "lose_sight_time": 3.0,
+    "attack_range": 1.25,
+    "attack_damage": 10,
+    "attack_cooldown": 1.0,
+    "wander_radius": 5.0,
+    "wander_pause_min": 1.0,
+    "wander_pause_max": 2.5
+  },
+  "container": {
+    "name": "Cabinet",
+    "search_time": 1.2,
+    "rolls": 3
+  },
+  "items": {
+    "bandage": { "name": "Bandage", "color": "#e8e2d0" },
+    "canned_beans": { "name": "Canned Beans", "color": "#d08a3c" },
+    "water_bottle": { "name": "Water Bottle", "color": "#4fa3e0" },
+    "scrap_metal": { "name": "Scrap Metal", "color": "#9aa0a6" },
+    "matches": { "name": "Matches", "color": "#d94b3b" }
+  },
+  "loot_table": [
+    { "id": "canned_beans", "weight": 4 },
+    { "id": "water_bottle", "weight": 3 },
+    { "id": "scrap_metal", "weight": 3 },
+    { "id": "bandage", "weight": 2 },
+    { "id": "matches", "weight": 2 }
+  ],
+  "ground_loot": [
+    { "id": "bandage", "pos": [2.5, 0.0, 5.5] },
+    { "id": "water_bottle", "pos": [-6.5, 0.0, 4.0] },
+    { "id": "canned_beans", "pos": [1.5, 0.0, -1.6] }
+  ]
+}
